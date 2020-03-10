@@ -1,16 +1,16 @@
 const describe = require('mocha').describe
 const it = require('mocha').it
-const expect = require('chai').ecpect
+const expect = require('chai').expect
 const strictEqual = require('../strictEqual')
 
 describe('strictEqual', () => {
-    desribe('equalities', () => {
+    describe('equalities', () => {
         it('returns true if both paramaters ARE integers', () => {
 
             //test data
             const numOne = 5
-            const strOne = 'five'
             const numTwo = 8
+            const strOne = '5'
             const strTwo = 'b'
 
             //call funtion
